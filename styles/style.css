@@ -1,0 +1,68 @@
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+img{
+    image-rendering: auto;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+#logo {
+    width: 40%
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#more-options-div{
+    padding-top: 5px;
+}
+
+#learn-more-link{
+    padding-right: 10px;
+}
+
+#contact-link{
+    padding-left: 10px;
+}
+
+.button {
+    background-color: white; /* Green */
+    border: 10%;
+    border-color: purple blue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40%;
+  }
+
+  .button:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+  }
+
+  #interest-but-div{
+      padding-top: 15px;
+  }
